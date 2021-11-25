@@ -95,15 +95,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <id>ARDesigns</id>
+	      <name>ARDesigns Releases Repository</name>
+	      <url>http://clm-pun-uii681:8081/ARDesigns/repository/ARDesigns-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <id>ARDesigns</id>
+	      <name>ARDesigns Snapshot Repository </name>
+	      <url>http://clm-pun-uii681:8081/ARDesigns/repository/ARDesigns-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
