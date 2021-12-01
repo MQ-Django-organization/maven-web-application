@@ -4,12 +4,12 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<version>Release-1.0</version>
 	
 	<name>maven-web-application</name>
 
-	<description>Maven Web Project for Java Programming Language</description>
+	<description>Maven Web Project for Java Project</description>
 
 	<organization>
 		<name>Mithun Technologies</name>
@@ -21,10 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.108.215.153:9000/</sonar.host.url>
-                <sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>  
-              
+		<sonar.host.url>http://clm-pun-uii681:9000/</sonar.host.url>
+		<sonar.login>6314dcef55cbe1ba46cc6f15d5201d56104e2464</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,15 +95,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.75.214:9980/mithuntechnologies/repository/wallmart-release/</url>
+	      <id>ARDesigns</id>
+	      <name>ARDesigns Releases Repository</name>
+	      <url>http://clm-pun-uii681:8081/ARDesigns/repository/ARDesigns-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.75.214:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
+	      <id>ARDesigns</id>
+	      <name>ARDesigns Snapshot Repository </name>
+	      <url>http://clm-pun-uii681:8081/ARDesigns/repository/ARDesigns-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
