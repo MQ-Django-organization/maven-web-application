@@ -1,5 +1,7 @@
 pipeline {
-    label 'node-Ardesigns'
+    agent{
+    	label 'node-Ardesigns'
+    }
     tools {
         maven 'Maven3.8.4-ARDesigns'
     }
