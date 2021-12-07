@@ -1,4 +1,4 @@
-node{
+node('nodes'){
     def ArshadMaven = tool name: "Maven3.8.4-ARDesigns"
     stage('GetthecodefromGit'){
         git credentialsId: '81dec520-f691-4a32-9669-c478a842c92f', url: 'https://github.com/MQ-Django-organization/maven-web-application.git'
